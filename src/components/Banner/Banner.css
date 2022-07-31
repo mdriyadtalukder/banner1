@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-image: url('../../img/sunset-1373171__480.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 150px 0px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    text-align: center;
+}
+
+.child h1 {
+    font-size: 50px;
+    width: 70%;
+    margin: auto;
+    font-weight: bold;
+}
+
+.child button {
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+@media (max-width:731px) {
+    .banner {
+        background-image: url('../../img/sunset-1373171__480.webp');
+        padding: 0;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 90px;
+        background-position: top;
+        position: relative;
+
+    }
+
+    .child h1 {
+        font-size: 20px;
+        width: 70%;
+        margin: auto;
+        font-weight: bold;
+    }
+
+    .child button {
+        padding: 5px;
+        border-radius: 8px;
+        margin-top: 12px;
+    }
+    .child{
+        position: absolute;
+        top: 20%;
+    }
+
+}
